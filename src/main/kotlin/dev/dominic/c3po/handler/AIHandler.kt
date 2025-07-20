@@ -1,4 +1,4 @@
-package dev.dominic.c2po.handler
+package dev.dominic.c3po.handler
 
 import okhttp3.*
 import okhttp3.MediaType.Companion.toMediaType

@@ -1,10 +1,10 @@
-package dev.dominic.c2po
+package dev.dominic.c3po
 
 import net.dv8tion.jda.api.JDABuilder
 import net.dv8tion.jda.api.entities.Activity
 import net.dv8tion.jda.api.requests.GatewayIntent
-import dev.dominic.c2po.handler.AIHandler
-import dev.dominic.c2po.listener.MessageReceivedListener
+import dev.dominic.c3po.handler.AIHandler
+import dev.dominic.c3po.listener.MessageReceivedListener
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 

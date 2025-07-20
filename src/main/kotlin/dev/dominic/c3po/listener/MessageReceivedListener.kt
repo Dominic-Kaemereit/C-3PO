@@ -1,8 +1,8 @@
-package dev.dominic.c2po.listener
+package dev.dominic.c3po.listener
 
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent
 import net.dv8tion.jda.api.hooks.ListenerAdapter
-import dev.dominic.c2po.Bot
+import dev.dominic.c3po.Bot
 
 
 class MessageReceivedListener(
@@ -27,8 +27,8 @@ class MessageReceivedListener(
             event.message.reply("""
 $it
 
--# C-2PO basiert auf einem KI-Modell zur Verarbeitung von Fragen, daher sind Missverständnisse oder Fehler nicht ausgeschlossen.
--# C-2PO is based on an AI model for processing questions; therefore, misunderstandings or errors cannot be ruled out.
+-# C-3PO basiert auf einem KI-Modell zur Verarbeitung von Fragen, daher sind Missverständnisse oder Fehler nicht ausgeschlossen.
+-# C-3PO is based on an AI model for processing questions; therefore, misunderstandings or errors cannot be ruled out.
             """.trimIndent()).queue()
         }.exceptionally {
 
